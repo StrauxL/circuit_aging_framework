@@ -1,0 +1,12 @@
+Complexity,Loss,Equation
+1,685.96686,"81.81201"
+3,593.6601,"years + 76.811745"
+4,434.5839,"sqrt(years * 1388.9211)"
+5,94.38409,"sqrt(sqrt(years) * 3566.4795)"
+6,10.122178,"sqrt(sqrt(sqrt(years)) * 5477.5117)"
+7,0.39414483,"sqrt(sqrt(sqrt(sqrt(years))) * 6695.478)"
+8,0.3358309,"(79.96069 - years) * sqrt(sqrt(sqrt(years)))"
+10,0.21435095,"sqrt(sqrt(sqrt(years)) * 6465.0283) - (years * 1.362077)"
+11,0.014006665,"(19.523561 - sqrt(years)) * sqrt(sqrt(sqrt(years)) * 18.582268)"
+13,0.003685276,"(sqrt(sqrt(sqrt(years) * 163.23393)) * 24.339529) - (sqrt(years) * 6.8861556)"
+15,0.003683319,"((sqrt(sqrt(sqrt(years) * 163.33257)) * 24.337187) - (sqrt(years) * 6.8867555)) + -0.0045775343"
