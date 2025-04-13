@@ -12,7 +12,7 @@ A comprehensive framework for predicting leakage in aged electronic circuits by 
 - Support for multiple circuit types (NAND3, XOR2, etc.)
 - Comprehensive documentation and visualization for research papers
 
-## Project Structure          
+## Project Folder Structure          
 circuit_aging_framework/             
 ├── data/                    # Store all dataset files       
 ├── models/                  # Saved trained models        
