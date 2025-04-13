@@ -47,5 +47,8 @@ cd circuit_aging_framework
 conda create --new myenv python=3.11.12
 pip install -r requirements.txt
 ```
-### Step 2: Add NAND3_Cleaned.csv and NAND3_Final_Leakage_Reduction.csv in data folder
-### Step 3: python process_new_circuit.py --fresh data/NAND3_Cleaned.csv --reduction data/NAND3_Final_Leakage_Reduction.csv --circuit NAND3
+### Step 2: 
+Add NAND3_Cleaned.csv and NAND3_Final_Leakage_Reduction.csv in data folder
+### Step 3: 
+in the terminal run:
+```python process_new_circuit.py --fresh data/NAND3_Cleaned.csv --reduction data/NAND3_Final_Leakage_Reduction.csv --circuit NAND3```
