@@ -34,7 +34,7 @@ circuit_aging_framework/
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11
 - pip (Python package installer)
 
 ### Step 1: Clone the Repository
