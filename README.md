@@ -13,7 +13,22 @@ A comprehensive framework for predicting leakage in aged electronic circuits by 
 - Comprehensive documentation and visualization for research papers
 
 ## Project Structure
-circuit_aging_framework/ ├── data/ # Store all dataset files ├── models/ # Saved trained models ├── results/ # Results, visualizations, and analysis ├── src/ # Source code │ ├── data_processing/ # Data processing utilities │ ├── modeling/ # ML model implementations │ ├── analysis/ # Analysis and visualization tools │ ├── symbolic_regression/ # PySR implementation │ └── utils/ # Utility functions ├── notebooks/ # Jupyter notebooks for experiments ├── config/ # Configuration files ├── requirements.txt # Project dependencies ├── setup.py # Package setup script └── README.md # Project documentation
+circuit_aging_framework/
+├── data/                    # Store all dataset files
+├── models/                  # Saved trained models
+├── results/                 # Results, visualizations, and analysis
+├── src/                     # Source code
+│   ├── data_processing/         # Data processing utilities
+│   ├── modeling/                # ML model implementations
+│   ├── analysis/                # Analysis and visualization tools
+│   ├── symbolic_regression/     # PySR implementation
+│   └── utils/                   # Utility functions
+├── notebooks/               # Jupyter notebooks for experiments
+├── config/                  # Configuration files
+├── requirements.txt         # Project dependencies
+├── setup.py                 # Package setup script
+└── README.md                # Project documentation
+
 
 ## Installation Guide
 
