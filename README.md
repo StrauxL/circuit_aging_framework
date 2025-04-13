@@ -27,11 +27,9 @@ circuit_aging_framework/ ├── data/ # Store all dataset files ├── mod
 ```bash
 git clone https://github.com/yourusername/circuit_aging_framework.git
 cd circuit_aging_framework
-python -m venv venv
-# On Windows
-venv\Scripts\activate
-# On Linux/Mac
-source venv/bin/activate
+#python -m venv venv
+#source venv/bin/activate
+conda create --new myenv python=3.11.12
 pip install -r requirements.txt
 ```
 ### Step 2: Add NAND3_Cleaned.csv and NAND3_Final_Leakage_Reduction.csv in data folder
